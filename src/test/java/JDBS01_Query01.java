@@ -5,7 +5,7 @@ public class JDBS01_Query01
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // 1 - Ilgili Driver'i yuklemeliyiz. MySQL kullandigimizi bildiriyoruz.
         // Driver'i bulamama ihtimaline karsi forName metodu icin ClassNotFoundException
-        // method signature'imiza axception olarak firlatmamizi istiyor.
+        // method signature'imiza exception olarak firlatmamizi istiyor.
 
 
         Class.forName("com.mysql.cj.jdbc.Driver");
